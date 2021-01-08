@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import appActions from "../../redux/app/app-actions";
 import { connect } from "react-redux";
 
-const Form = function ({ onSubmit, addContact }) {
+const Form = function ({ onSubmit }) {
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
 
